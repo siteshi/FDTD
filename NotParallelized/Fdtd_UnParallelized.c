@@ -6,7 +6,7 @@
 
 #define KE  200         /* KE is the number of cells to be used */
 
-main ()
+int main ()
 {
   float ex[KE], hy[KE];
   int n, k, kc, ke, NSTEPS;

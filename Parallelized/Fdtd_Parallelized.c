@@ -1,3 +1,9 @@
+//
+//  Fdtd_Parallelized.c
+//
+//  Created by sitesh indra on 14/04/15.
+//
+
 #include <stdio.h>
 #include "mpi.h"
 #include <stdlib.h>

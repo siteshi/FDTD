@@ -11,7 +11,7 @@ import time
 
 
 def readFile():
-    f=open("Hy",'r')
+    f=open("Ex",'r')
     data=[]
     for line in f:
         lineContent = line.strip('\n')
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
     for steps in dataList:
         plt.plot(x_list,steps)
-        plt.pause(0.1)
+        plt.pause(0.01)
         plt.clf();
     #plt.show()
     #plt.show()
